@@ -15,6 +15,11 @@ html {
     scroll-behavior: smooth;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 *,
 *::before,
 *::after {
@@ -25,11 +30,9 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
-    margin: 0;
-    padding: 0;
     font-family: "Rubik", "Arial", sans-serif;
     font-style: 16px;
-    line-height: 36;
+    line-height: 36px;
     background-color: #fff;
     color: var(--text-color);
 }
@@ -37,6 +40,7 @@ body {
 img {
     max-width: 100%;
     height: auto;
+    display: block;
 }
 
 a {
@@ -75,12 +79,30 @@ ul {
     margin-right: auto;
 }
 
-/* MAIN CONTENT */
-.main-content{
-    flex-grow: 1;
+/* BUTTON */
+.global-btn {
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    padding-top: 10px 0;
+    
 }
-
-
+.global-btn__red {
+    padding: 12px 0;
+    padding-left: 32px;
+    padding-right: 34px;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    background-color: var(--accent-red);
+}
+.global-btn__red:hover {
+    opacity: 0.6;
+}
 
 /* RETINA BG */
 @media
@@ -93,3 +115,57 @@ ul {
         /* retina bg img */
 }
 /* //RETINA BG */
+
+
+/* SITE HEADER */
+.site-header {
+    padding-top: 48px;
+}
+.site-header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.site-logo__link {
+    display: flex;
+    align-items: center;
+}
+.site-logo__link:hover {
+    opacity: 0.6;
+}
+
+.site-logo__img {
+    width: 149px;
+    height: 25px;
+}
+.sitenav {
+    display: flex;
+    align-items: center;
+}
+.sitenav-list {
+    display: flex;
+    align-items: center;
+
+}
+.sitenav-item:first-child {
+    margin-right: 44px; 
+}
+.sitenav-item {
+    margin-right: 48px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: 1.5px;
+}
+.sitenav-link:hover {
+    color: var(--accent-red);
+}
+
+/* //SITE HEADER */
+
+
+/* MAIN CONTENT */
+.main-content{
+    flex-grow: 1;
+}
