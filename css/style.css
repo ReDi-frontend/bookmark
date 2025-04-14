@@ -339,7 +339,8 @@ ul {
 }
 .section-extension__text {
     width: 540px;
-    font-size: 16px;
+    font-size: 17px;
+    font-weight: 400;
     line-height: 28px;
     letter-spacing: 0px;
     color: var(--text-color-50);
