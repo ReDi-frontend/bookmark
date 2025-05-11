@@ -16,19 +16,19 @@
 <body>
 
     <!-- SITE HEADER -->
-    <header class="site-header">
-        <div class="container site-header__container">
+    <header class="header">
+        <div class="container header-container">
             <!-- site logo -->
-            <a class="site-logo__link" href="index.html">
-                <img class="site-logo__img" src="./img/logo.svg" alt="Bookmark-logo" width="149" height="25">
+            <a class="logo-link" href="index.html">
+                <img class="logo-img" src="./img/logo.svg" alt="Bookmark-logo" width="149" height="25">
             </a>
 
             <!-- site nav -->
-            <nav class="sitenav">
-                <ul class="sitenav-list">
-                    <li class="sitenav-item"><a class="sitenav-link" href="#">FEATURES</a></li>
-                    <li class="sitenav-item"><a class="sitenav-link" href="#">PRICING</a></li>
-                    <li class="sitenav-item"><a class="sitenav-link" href="#">CONTACT</a></li>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a class="nav-link" href="#">FEATURES</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">PRICING</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
                 </ul>
                 <!-- global button -->
                 <a class="global-btn global-btn__red" href="#">Login</a>
@@ -40,38 +40,40 @@
 
     <!-- MAIN -->
     <main class="site-main">
-        <section class="section-hero">
-            <div class="container section-hero__container">
-                <div class="section-hero__info">
-                    <h2 class="section-hero__title">A Simple Bookmark Manager</h2>
-                    <p class="section-hero__text">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
-                    <div class="section-hero__btn-wrapper">
-                        <a class="global-btn global-btn__blue section-hero__btn" href="#">Get it on Chrome</a>
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="hero-info">
+                    <h2 class="hero-title">A Simple Bookmark Manager</h2>
+                    <p class="hero-text">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+                    <div class="hero__btn-wrapper">
+                        <a class="global-btn global-btn__blue hero-btn" href="#">Get it on Chrome</a>
                         <a class="global-btn global-btn__alpha" href="#">Get it on Firefox</a>
                     </div>
                 </div>
-                <img class="section-hero__img" src="./img/hero-img.png" alt="hero-img" width="578" height="385">
+                <img class="hero-img" src="./img/hero-img.png" alt="hero-img" width="578" height="385">
             </div>
         </section>
 
 
         <!-- FEATURES -->
-        <section class="section-features">
-            <div class="container section-features__container">
-                <h2 class="section-features__title">Features</h2>
-                <p class="section-features__text">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
-                <ul class="section-features__links-list">
-                    <li class="section-features__links-item section-features__links-item--outline"><a class="section-features__link" href="#">Simple Bookmarking</a></li>
-                    <li class="section-features__links-item"><a class="section-features__link" href="#">Speedy Searching</a></li>
-                    <li class="section-features__links-item"><a class="section-features__link" href="#">Easy Sharing</a></li>
+        <section class="features">
+            <div class="container features-container">
+                <div class="section-tite__wrapper features__tite-wrapper">
+                    <h2 class="section-title">Features</h2>
+                    <p class="section-text">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+                </div>
+                <ul class="features-links__list">
+                    <li class="features-links__item features-links__item--outline"><a class="features-link" href="#">Simple Bookmarking</a></li>
+                    <li class="features-links__item"><a class="features-link" href="#">Speedy Searching</a></li>
+                    <li class="features-links__item"><a class="features-link" href="#">Easy Sharing</a></li>
                 </ul>
 
-                <div class="section-features__main">
-                    <img class="section-features__main-img" src="./img/features-img.jpg" alt="Bookmark in one click" width="536" height="346">
-                    <div class="section-features__main-info">
-                        <h3 class="section-features__main-title">Bookmark in one click</h3>
-                        <p class="section-features__main-text">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
-                        <a class="global-btn global-btn__blue section-hero__btn" href="#">More Info</a>
+                <div class="features-main">
+                    <img class="features-main__img" src="./img/features-img.jpg" alt="Bookmark in one click" width="536" height="346">
+                    <div class="features-main__info">
+                        <h3 class="features-main__title">Bookmark in one click</h3>
+                        <p class="features-main__text">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+                        <a class="global-btn global-btn__blue" href="#">More Info</a>
                     </div>
                 </div>
             </div>
@@ -80,35 +82,103 @@
 
 
         <!-- EXTENSION -->
-        <section class="section-extension">
-            <div class="container section-extension__container">
-                <h2 class="section-extension__title">Download the extension</h2>
-                <p class="section-extension__text">We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p>
-                <ul class="section-extension__card-list">
-                    <li class="section-extension__card-item section-extension__card--first">
-                        <img class="section-extension__card-img" src="./img/chrome.svg" alt="Chrome-logo" width="102" height="100">
-                        <h3 class="section-extension__card-title">Add to Chrome</h3>
-                        <p class="section-extension__card-text">Minimum version 62</p>
-                        <a class="section-extension__card-btn global-btn global-btn__blue" href="#">Add & Install Extension</a>
+        <section class="extension">
+            <div class="container extension-container">
+                <div class="section-tite__wrapper extension__tite-wrapper">
+                    <h2 class="section-title">Download the extension</h2>
+                    <p class="section-text">We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p>
+                </div>
+                <ul class="extension-card__list">
+                    <li class="extension-card__item extension-card__first">
+                        <img class="extension-card__img" src="./img/chrome.svg" alt="Chrome-logo" width="102" height="100">
+                        <h3 class="extension-card__title">Add to Chrome</h3>
+                        <p class="extension-card__text">Minimum version 62</p>
+                        <a class="extension-card__btn global-btn global-btn__blue" href="#">Add & Install Extension</a>
                     </li>
 
-                    <li class="section-extension__card-item section-extension__card--second">
-                        <img class="section-extension__card-img" src="./img/firefox.svg" alt="Firefox-logo" width="105" height="100">
-                        <h3 class="section-extension__card-title">Add to Firefox</h3>
-                        <p class="section-extension__card-text">Minimum version 55</p>
-                        <a class="section-extension__card-btn global-btn global-btn__blue" href="#">Add & Install Extension</a>
+                    <li class="extension-card__item extension-card__second">
+                        <img class="extension-card__img" src="./img/firefox.svg" alt="Firefox-logo" width="105" height="100">
+                        <h3 class="extension-card__title">Add to Firefox</h3>
+                        <p class="extension-card__text">Minimum version 55</p>
+                        <a class="extension-card__btn global-btn global-btn__blue" href="#">Add & Install Extension</a>
                     </li>
 
-                    <li class="section-extension__card-item section-extension__card--third">
-                        <img class="section-extension__card-img" src="./img/Opera.svg" alt="Opera-logo" width="96" height="100">
-                        <h3 class="section-extension__card-title">Add to Opera</h3>
-                        <p class="section-extension__card-text">Minimum version 46</p>
-                        <a class="section-extension__card-btn global-btn global-btn__blue" href="#">Add & Install Extension</a>
+                    <li class="extension-card__item extension-card__third">
+                        <img class="extension-card__img" src="./img/Opera.svg" alt="Opera-logo" width="96" height="100">
+                        <h3 class="extension-card__title">Add to Opera</h3>
+                        <p class="extension-card__text">Minimum version 46</p>
+                        <a class="extension-card__btn global-btn global-btn__blue" href="#">Add & Install Extension</a>
                     </li>
                 </ul>
             </div>
         </section>
         <!-- //EXTENSION -->
+
+
+        <!-- FAQ -->
+        <section class="faq">
+            <div class="faq-container container">
+                <div class="section-tite__wrapper faq-title__wrapper">
+                    <h2 class="section-title">Frequently Asked Questions</h2>
+                    <p class="section-text">Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us.</p>
+                </div>
+
+                <ul class="faq-list">
+                    <li class="faq-item">
+                        <button class="faq-accordion" type="button">
+                            <h3 class="accordion-title">What is Bookmark?</h3>
+                            <svg class="accordion-icon" width="16" height="8" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path id="Path 3" d="M2 2L10 10L18 2" stroke="currentColor" stroke-width="3"/>
+                                </svg>
+                        </button>
+                        <div class="faq-accordion__main">
+                            Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+                            ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.
+                        </div>
+                    </li>
+
+                    <li class="faq-item">
+                        <button class="faq-accordion" type="button">
+                            <h3 class="accordion-title">How can I request a new browser?</h3>
+                            <svg class="accordion-icon" width="16" height="8" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path id="Path 3" d="M2 2L10 10L18 2" stroke="currentColor" stroke-width="3"/>
+                                </svg>
+                        </button>
+                        <div class="faq-accordion__main">
+                            Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+                            ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.
+                        </div>
+                    </li>
+
+                    <li class="faq-item">
+                        <button class="faq-accordion" type="button">
+                            <h3 class="accordion-title">Is there a mobile app?</h3>
+                            <svg class="accordion-icon" width="16" height="8" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path id="Path 3" d="M2 2L10 10L18 2" stroke="currentColor" stroke-width="3"/>
+                                </svg>
+                        </button>
+                        <div class="faq-accordion__main">
+                            Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+                            ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.
+                        </div>
+                    </li>
+
+                    <li class="faq-item">
+                        <button class="faq-accordion" type="button">
+                            <h3 class="accordion-title">What about other Chromium browsers?</h3>
+                            <svg class="accordion-icon" width="16" height="8" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path id="Path 3" d="M2 2L10 10L18 2" stroke="currentColor" stroke-width="3"/>
+                                </svg>
+                        </button>
+                        <div class="faq-accordion__main">
+                            Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+                            ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- //FAQ -->
     </main>
     <!-- //MAIN -->
 
