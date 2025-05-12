@@ -427,8 +427,7 @@ ul {
 
 /* FAQ */
 .faq {
-}
-.faq-container {
+    padding-bottom: 150px;
 }
 .faq-title__wrapper {
     margin-bottom: 56px;
@@ -440,6 +439,7 @@ ul {
     width: 540px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 64px;
 }
 .faq-item {
     width: 100%;
@@ -491,5 +491,11 @@ ul {
 .faq-item--open .accordion-icon {
     color: var(--accent-red);
     transform: rotate(180deg);
+}
+
+.faq-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /* //FAQ */
