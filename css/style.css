@@ -54,6 +54,12 @@ ul {
     margin: 0;
 }
 
+button {
+    display: block;
+    border: 0;
+    background-color: transparent;
+}
+
 /* VISUALLY HIDDEN */
 .visually-hidden {
     position: absolute;
@@ -499,3 +505,71 @@ ul {
     justify-content: center;
 }
 /* //FAQ */
+
+
+/* CTA */
+.cta {
+    padding-top: 58px;
+    padding-bottom: 74px;
+    background-color: var(--accent-blue);
+    color: #fff;
+}
+.cta-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 442px;
+}
+.cta-text {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 40px;
+    letter-spacing: 5px;
+    margin-bottom: 24px;
+}
+.cta-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.1px;
+    text-align: center;
+    width: 408px;
+    margin-bottom: 36px;
+}
+.cta-form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.cta-input {
+    max-width: 300px;
+    width: 100%;
+    display: block;
+    border: 0;
+    background-color: #fff;
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    margin-right: 16px;
+    border-radius: 5px;
+}
+.cta-input::placeholder {
+    color: #242A4540;
+    
+}
+.cta-btn {
+    background-color: var(--accent-red);
+    white-space: nowrap;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    padding: 10px 24px;
+    color: #fff;
+}
+/* //CTA */
